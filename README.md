@@ -17,7 +17,7 @@ GUI設計
   cur=conn.cursor()
 - db.connect(): 連接資料庫
 - conn.cursor(): 建立 Cursor 物件
-- cur.execute: 執行 SQL 指令
+- cur.execute(): 執行 SQL 指令
 
 #### 透過pyautogui套件來實作功能
 - pyautogui.alert(): 顯示消息視窗
