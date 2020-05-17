@@ -2,22 +2,22 @@
 `pip install -r requirements.txt`
 
 #### 透過tkinter套件來實作功能
-GUI設計
+#### GUI設計
 - Label:標籤
 - Entry:文字框
 - Button:按鈕
 
 #### 透過sqlite3套件來實作功能
-資料庫
+#### 資料庫
 
 - 初始設定
 
-  conn=db.connect(db_Path)
+  conn=db.connect(db_Path): 連接資料庫
 
-  cur=conn.cursor()
-- db.connect(): 連接資料庫
-- conn.cursor(): 建立 Cursor 物件
+  cur=conn.cursor(): 建立 Cursor 物件
+
 - cur.execute(): 執行 SQL 指令
+- conn.commit(): 寫入資料庫
 
 #### 透過pyautogui套件來實作功能
 - pyautogui.alert(): 顯示消息視窗
